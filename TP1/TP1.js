@@ -55,7 +55,7 @@ function setup() {
              color(14, 76, 175),] //2 negro
 
 
-  dibujos = [new Dibujo1(), new Dibujo2(), new Dibujo3(), new Dibujo4()]
+  dibujos = [new Dibujo5(), new Dibujo1(), new Dibujo2(), new Dibujo3(), new Dibujo4()]
 
   // Campos editables (arrancan ocultos, aparecen al apretar "a")
   inputUmbral = crearCampoNumerico(contenedor, 130, 68, 60, umbralSilencio, 0.001, function(v){ umbralSilencio = v })
@@ -135,7 +135,7 @@ function draw() {
           cambio++
           if(cambio>2) {cambio=0}
       }else{
-        cambio2=round(random(0,3))//(cambio2+1)%dibujos.length
+        cambio2=round(random(0,4))//(cambio2+1)%dibujos.length
       }
     }
     Chillido=false
