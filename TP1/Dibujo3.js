@@ -47,6 +47,7 @@ class Dibujo3{
     this.Rectangulo1.dibujar()
     this.Circulo2.fin()
     pop()
+    
     Margenes()
     
     this.Linea1.dibujar(10,8,5,2)
